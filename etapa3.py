@@ -17,3 +17,20 @@ e celular formatados de forma única.
 
 """
 
+
+import requests
+
+import json
+
+import csv
+
+import pandas 
+
+def my_function(url, n):
+    urln = url + '&results=' + str(n)
+    table = pandas.read_csv(urln)
+    table['phone'] = table['phone'].str.replace(r'\D', '') # \D : regex for non digit
+    table['cell'] = table['cell'].str.replace(r'\D', '')
+    table.to_csv('etapa3_table.csv', encoding = 'utf-8')
+
+my_function(url = "https://randomuser.me/api/?format=csv", n = 500)

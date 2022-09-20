@@ -1,0 +1,162 @@
+gender
+female    50.0
+male      50.0
+Name: gender, dtype: float64
+nat
+AU    5.8
+BR    4.2
+CA    3.8
+CH    4.8
+DE    5.6
+DK    6.4
+ES    4.8
+FI    3.8
+FR    4.6
+GB    4.2
+IE    5.6
+IN    6.2
+IR    4.6
+MX    4.8
+NL    3.6
+NO    4.0
+NZ    5.0
+RS    4.0
+TR    6.0
+UA    3.6
+US    4.6
+Name: nat, dtype: float64
+gender
+female    49.2
+male      50.8
+Name: gender, dtype: float64
+nat
+AU    6.2
+BR    5.8
+CA    2.6
+CH    3.0
+DE    4.8
+DK    5.8
+ES    5.0
+FI    3.4
+FR    5.0
+GB    6.0
+IE    5.4
+IN    5.4
+IR    4.4
+MX    3.2
+NL    4.6
+NO    5.6
+NZ    3.2
+RS    4.8
+TR    5.0
+UA    5.8
+US    5.0
+Name: nat, dtype: float64
+gender
+female    51.2
+male      48.8
+Name: gender, dtype: float64
+nat
+AU    5.0
+BR    2.4
+CA    4.0
+CH    5.2
+DE    3.2
+DK    4.2
+ES    4.0
+FI    5.6
+FR    4.2
+GB    4.8
+IE    6.6
+IN    4.8
+IR    5.4
+MX    6.0
+NL    4.4
+NO    5.2
+NZ    7.8
+RS    3.6
+TR    5.8
+UA    3.2
+US    4.6
+Name: nat, dtype: float64
+gender
+female    45.0
+male      55.0
+Name: gender, dtype: float64
+nat
+AU    4.6
+BR    3.4
+CA    2.8
+CH    4.0
+DE    4.2
+DK    5.8
+ES    4.6
+FI    5.8
+FR    5.4
+GB    5.6
+IE    5.0
+IN    4.6
+IR    5.6
+MX    4.8
+NL    4.2
+NO    5.0
+NZ    3.6
+RS    3.6
+TR    6.4
+UA    6.2
+US    4.8
+Name: nat, dtype: float64
+gender
+female    50.4
+male      49.6
+Name: gender, dtype: float64
+nat
+AU    4.8
+BR    3.8
+CA    3.6
+CH    4.6
+DE    5.4
+DK    4.0
+ES    5.2
+FI    6.0
+FR    6.6
+GB    3.6
+IE    5.6
+IN    4.2
+IR    4.6
+MX    4.8
+NL    5.2
+NO    6.4
+NZ    4.2
+RS    5.6
+TR    3.6
+UA    4.0
+US    4.2
+Name: nat, dtype: float64
+gender
+female    48.8
+male      51.2
+Name: gender, dtype: float64
+nat
+AU    2.4
+BR    5.0
+CA    4.6
+CH    4.8
+DE    5.2
+DK    4.6
+ES    5.2
+FI    5.8
+FR    4.8
+GB    4.4
+IE    5.4
+IN    4.8
+IR    6.6
+MX    3.4
+NL    4.2
+NO    3.8
+NZ    5.2
+RS    2.8
+TR    5.4
+UA    5.4
+US    6.2
+Name: nat, dtype: float64
