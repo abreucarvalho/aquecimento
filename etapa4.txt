@@ -160,3 +160,57 @@ TR    5.4
 UA    5.4
 US    6.2
 Name: nat, dtype: float64
+gender
+female    49.2
+male      50.8
+Name: gender, dtype: float64
+nat
+AU    3.4
+BR    5.2
+CA    5.4
+CH    4.4
+DE    4.2
+DK    6.2
+ES    4.8
+FI    3.2
+FR    4.2
+GB    5.4
+IE    6.0
+IN    5.0
+IR    5.2
+MX    3.6
+NL    4.6
+NO    4.4
+NZ    4.6
+RS    4.6
+TR    3.8
+UA    4.8
+US    7.0
+Name: nat, dtype: float64
+gender
+female    50.6
+male      49.4
+Name: gender, dtype: float64
+nat
+AU    4.6
+BR    4.4
+CA    4.4
+CH    5.0
+DE    3.2
+DK    4.6
+ES    4.8
+FI    5.0
+FR    6.8
+GB    5.8
+IE    3.8
+IN    3.6
+IR    5.0
+MX    4.4
+NL    5.6
+NO    4.6
+NZ    4.4
+RS    3.4
+TR    4.4
+UA    6.2
+US    6.0
+Name: nat, dtype: float64

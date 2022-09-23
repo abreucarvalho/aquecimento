@@ -42,8 +42,7 @@ def my_function(url, n):
         print((table.groupby('gender')['gender'].count() / len(table.index) * 100), file=f)
         print((table.groupby('nat')['nat'].count() / len(table.index) * 100), file=f)
     table.plot.hist(column=['dob_age'], bins = 60, range=(20, 80), alpha=.5).set_xlabel('age (years)')
-    plt.savefig('plot.png', dpi=300, bbox_inches='tight')
-
+    plt.savefig('hist4.png', dpi=300, bbox_inches='tight')
  
 my_function(url = "https://randomuser.me/api/?format=csv", n = 500)
 
