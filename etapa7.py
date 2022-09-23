@@ -39,11 +39,17 @@ def my_function(n = 500, min_age = 20, max_age = 80, bins = 60, dpi = 300):
     url = "https://randomuser.me/api/?format=csv&results=" + str(n)
     table = pandas.read_csv(url)
     table.columns = table.columns.str.replace('\.', '_')
+    table['phone'] = table['phone'].str.replace(r'\D', '') # \D : regex for non digit
+    table['cell'] = table['cell'].str.replace(r'\D', '')
+    table.to_csv('etapa7_table.csv', encoding = 'utf-8')
     with open("etapa7.txt", "a") as f:
         print((table.groupby('gender')['gender'].count() / len(table.index) * 100), file=f)
         print((table.groupby('nat')['nat'].count() / len(table.index) * 100), file=f)
     table.plot.hist(column=['dob_age'], bins = 60, range=(min_age, max_age), alpha=.5).set_xlabel('age (years)')
     plt.savefig('hist7.png', dpi = dpi, bbox_inches = 'tight')
+    table = table.groupby(['gender', 'nat'])[['dob_age']].mean()
+    print(table)
+
  
 my_function(min_age = 40, max_age = 80, bins = 40,)
 
